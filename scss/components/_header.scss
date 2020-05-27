@@ -17,7 +17,9 @@
     .nav-links {
         display: flex;
         list-style: none;
+       
         .nav-link {
+            border-bottom: 4px solid white;
             transition :
                  opacity .4s ease-in-out ,
                  transform .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -35,6 +37,7 @@
                     transition-delay: .4s;
                }
 
+
             a {
                 margin: 0.2rem;
                 padding: 1rem 0.5rem;
@@ -42,9 +45,11 @@
             a:hover {
                 background: rgba(255, 255, 255, 0.2);
             }
+            
+           
         }
     }
-
+    
     .menu-icon {
         position: relative;
         padding: 26px 10px;
@@ -104,4 +109,7 @@
             }
         }
     }
+}
+.act{
+    
 }
