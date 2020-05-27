@@ -1,0 +1,23 @@
+{
+  "name": "sarvalogistics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohit163/Logistics.git"
+  },
+  "author": "Aum & Rohit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohit163/Logistics/issues"
+  },
+  "homepage": "https://github.com/rohit163/Logistics#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
