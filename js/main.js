@@ -8,3 +8,12 @@ window.addEventListener('scroll',()=>{
     }
 })
 
+
+// setTimeout(function(){
+//     window.scrollBy({ 
+//     top: 1500, 
+  
+//     behavior: 'smooth' 
+//   });
+//  }, 1500);
+

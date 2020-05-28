@@ -104,6 +104,8 @@
     .main-header.scrolled .menu-icon__line, .main-header.scrolled .menu-icon__line::before, .main-header.scrolled .menu-icon__line::after {
       background: #fff; }
 
+
+
 @media screen and (max-width: 767px) {
   .main-header .menu-icon {
     display: block; }
@@ -151,6 +153,27 @@
   .main-header .menu-btn:checked ~ .menu-icon .menu-icon__line {
     background: #fff; } }
 
+.hero-content {
+      opacity: 0;
+      margin-top: 100px;
+      -webkit-animation: 1s slidefade 1s forwards;
+              animation: 1s slidefade 1s forwards;
+    }
+    
+    @-webkit-keyframes slidefade {
+      100% {
+        opacity: 1;
+        margin: 0;
+      }
+    }
+    
+    @keyframes slidefade {
+      100% {
+        opacity: 1;
+        margin: 0;
+      }
+    }
+
 *, *::before, *::after {
   box-sizing: border-box;
   padding: 0;
@@ -160,8 +183,26 @@ body {
   font-family: sans-serif; }
 
 .container {
-  width: 80%;
-  margin: 2rem auto; }
+  width: 100%;
+  margin: 2rem auto;
+  background-color: white;
+  -webkit-animation: 2s slideup 1s forwards;
+  animation: 2s slideup 1s forwards;
+ }
+ @-webkit-keyframes slideup {
+  100% {
+    transform: translateY(-150px);
+  }
+}
+
+@keyframes slideup {
+  100% {
+    transform: translateY(-150px);
+   
+  }
+}
+
+ 
   .container p {
     margin: 1rem 0; }
 
@@ -190,3 +231,19 @@ body {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
+header{
+-webkit-animation: 1s fadein 0.5s forwards;
+animation: 1s fadein 0.5s forwards;
+opacity: 0;
+}
+@-webkit-keyframes fadein {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  100% {
+    opacity: 1;
+  }
+}
