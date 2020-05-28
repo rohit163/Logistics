@@ -2,58 +2,97 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Logistics-Contact Us</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Logistics-Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
 
-  <header class="main-header">
-    <div class="logo">
-      <a href="home.html">LOGO</a>
-    </div>
-    <input type="checkbox" class="menu-btn" id="menu-btn">
-    <label for="menu-btn" class="menu-icon">
-      <span class="menu-icon__line"></span>
-    </label>
-    <ul class="nav-links">
-      <li class="nav-link">
-        <a href="home.html" id='home' >Home</a>
-        
-      </li>
-      <li class="nav-link">
-        <a href="about.html" id='about'>About US </a>
-       
-      </li>
-      <li class="nav-link dropdown">
-        <a href="#" id='services' class='dropbtn'>Our Services</a>
-        <div class="dropdown-content">
-          <a href='link1.html'>Link 1</a>
-          <a href="link2.html">Link 2</a>
+    <header class="main-header">
+        <div class="logo">
+            <a href="home.html">LOGO</a>
         </div>
-      </li>
-      <li class="nav-link">
-        <a href="contact.html" class='active' id='contact'>Contact US</a>
-      </li>
-      <li class="nav-link">
-        <a href="enquiry.html" id='enquiry'>Enquiry Form</a>
-      </li>
-    </ul>
-  </header>
-  <div class="hero">
-    <h1 class="hero-content">Contact Us</h1>
-  </div>
-  <div class="container">
-   <div class="main">
-      <div class="left"><h2>bfnh</h2></div>
-      <div class="right"><h2>fhdfggf</h2></div>
-   </div>
-  </div>
- 
-<script src="js/main.js"></script>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="menu-icon__line"></span>
+        </label>
+        <ul class="nav-links">
+            <li class="nav-link">
+                <a href="home.html" id='home'>Home</a>
+
+            </li>
+            <li class="nav-link">
+                <a href="about.html" id='about'>About US </a>
+
+            </li>
+            <li class="nav-link dropdown">
+                <a href="#" id='services' class='dropbtn'>Our Services</a>
+                <div class="dropdown-content">
+                    <a href='link1.html'>Link 1</a>
+                    <a href="link2.html">Link 2</a>
+                </div>
+            </li>
+            <li class="nav-link">
+                <a href="contact.html" class='active' id='contact'>Contact US</a>
+            </li>
+            <li class="nav-link">
+                <a href="enquiry.html" id='enquiry'>Enquiry Form</a>
+            </li>
+        </ul>
+    </header>
+    <div class="hero">
+        <h1 class="hero-content">Contact Us</h1>
+    </div>
+    <div class="container">
+        <div class="main">
+            <div class="left">
+                <div class="name_in">
+                    <div class="fname">
+                        <p>First Name:</p>
+                        <input type="text">
+                    </div>
+                    <div class="lname">
+                        <p>Last Name:</p>
+                        <input type="text">
+                    </div>
+                </div>
+               <p>Subject</p> 
+                <input type="text">
+               <p> Email:</p>
+                <input type="email" name="" id="">
+               <p> Message: </p>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                <Button>Send Message</Button>
+            </div>
+
+            <div class="right">
+                <div class="up">
+                    <strong>Address</strong><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quaerat eaque itaque repellat
+                        illo voluptatibus tempore labore, iure cum enim magnam quae repellendus molestias quo sunt
+                        possimus error ut voluptatem.</p>
+                    <br><strong>Phone</strong><br>
+                    <p class='teal'>9456656646</p>
+                    <strong>Email</strong>
+                    <p class='teal'>fddg@gs.com</p>
+                </div>
+                <div class="down">
+                    <strong>More Info</strong>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi perferendis ipsum ex assumenda
+                        deserunt molestias, quae dolores eius veritatis. Perspiciatis minima ex fuga eligendi sit
+                        mollitia aspernatur quo nesciunt deleniti?</p>
+                    <button>More Info</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>

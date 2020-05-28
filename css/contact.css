@@ -1,4 +1,90 @@
+body{
+    background-color: black;
+}
 .main{
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.container{
+    /* background-color: rgb(228, 228, 228); */
+    background-color: black;
+}
+.left{
+    display: flex;
     flex-direction: column;
+    flex-grow: 2;
+    margin: 5%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+}
+.left input{
+    margin: 10px;
+    height:  30px;
+}
+.left textarea{
+    margin: 10px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10%;
+    
+   
+    
+}
+.up{
+    
+    background-color: white;
+    padding: 3%;
+    margin: 5%;
+    border-radius: 10px;
+
+
+}
+.down{
+    
+    background-color: white ;
+    padding: 3%;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+.name_in{
+    display: flex;
+    flex-direction: row;
+}
+
+
+button{
+        outline:none;
+        border:none;
+        font-size:20px;
+        text-transform:uppercase;
+        letter-spacing:3px;
+        padding: 10px;
+        margin: 30px auto;
+        display:block;
+        position:relative;
+        border-radius:20px;
+        background-color: teal;
+        color :white; 
+     
+}
+button:hover{
+    color: black;
+}
+.teal{
+    color: teal;
+}
+input:focus{
+    outline: none;
+     border: 2px solid teal;
+}
+textarea:focus{
+    outline: none;
+    border: 2px solid teal;
 }

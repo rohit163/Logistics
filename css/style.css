@@ -167,21 +167,21 @@
 .hero-content {
       opacity: 0;
       margin-top: 100px;
-      -webkit-animation: 1s slidefade 1s forwards;
-              animation: 1s slidefade 1s forwards;
+      -webkit-animation: 1.5s slidefade 1s forwards;
+              animation: 1.5s slidefade 1s forwards;
     }
     
     @-webkit-keyframes slidefade {
       100% {
         opacity: 1;
-        margin: 0;
+        margin-top: -100px;
       }
     }
     
     @keyframes slidefade {
       100% {
         opacity: 1;
-        margin: 0;
+        margin-top: -100px;
       }
     }
 
@@ -196,7 +196,7 @@ body {
 .container {
   width: 100%;
   margin: 2rem auto;
-  background-color: white;
+  background-color:  white;
   -webkit-animation: 3s slideup 1s forwards;
   animation: 3s slideup 1s forwards;
  }
