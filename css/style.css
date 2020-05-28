@@ -101,11 +101,22 @@
     height: 50px;
     background-color: rgba(0, 0, 0, 0.9);
     color: #ffffff; }
+     .main-header.scrolled .active{
+       color: teal;
+     }
     .main-header.scrolled .menu-icon__line, .main-header.scrolled .menu-icon__line::before, .main-header.scrolled .menu-icon__line::after {
       background: #fff; }
 
+/* .logo img{
+  width: 40px;
+  height: 40px;  
+  border-radius: 50%;
+ opacity: 0.5;
+} */
 
-
+.logo{
+  color: teal;
+}
 @media screen and (max-width: 767px) {
   .main-header .menu-icon {
     display: block; }
@@ -186,18 +197,18 @@ body {
   width: 100%;
   margin: 2rem auto;
   background-color: white;
-  -webkit-animation: 2s slideup 1s forwards;
-  animation: 2s slideup 1s forwards;
+  -webkit-animation: 3s slideup 1s forwards;
+  animation: 3s slideup 1s forwards;
  }
  @-webkit-keyframes slideup {
   100% {
-    transform: translateY(-150px);
+    transform: translateY(-180px);
   }
 }
 
 @keyframes slideup {
   100% {
-    transform: translateY(-150px);
+    transform: translateY(-180px);
    
   }
 }
