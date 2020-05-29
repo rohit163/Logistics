@@ -1,0 +1,12 @@
+.container{
+    animation:  1s slideup 1s forwards;
+}
+
+
+
+@keyframes slideup{
+    100%{
+            margin-top: -100px;
+          
+    }
+}

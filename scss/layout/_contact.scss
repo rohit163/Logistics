@@ -1,5 +1,5 @@
-body{
-    background-color: black;
+.contact{
+    background-color: $background-primary;
 }
 .main{
     display: flex;
@@ -7,9 +7,10 @@ body{
     justify-content: space-around;
     
 }
-.container{
+.container_contact{
+    width: 80%;
     /* background-color: rgb(228, 228, 228); */
-    background-color: black;
+    background-color: $color2;
 }
 .left{
     display: flex;
@@ -70,21 +71,21 @@ button{
         display:block;
         position:relative;
         border-radius:20px;
-        background-color: teal;
-        color :white; 
+        background-color: $background-primary;
+        color :black; 
      
 }
 button:hover{
-    color: black;
+    color: $color1;
 }
 .teal{
-    color: teal;
+    color:$color1;
 }
 input:focus{
     outline: none;
-     border: 2px solid teal;
+     border: 2px solid $color1;
 }
 textarea:focus{
     outline: none;
-    border: 2px solid teal;
+    border: 2px solid $color1;
 }
