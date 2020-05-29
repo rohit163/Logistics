@@ -60,40 +60,4 @@
 }
 
 
-button{
-        outline:none;
-        border:none;
-        font-size:23px;
-        text-transform:capitalize;
-        letter-spacing:2px;
-        padding: 10px;
-        margin: 30px auto;
-        display:block;
-        position:relative;
-        border-radius:10px;
-        background-color: black;
-        color :white; 
-        box-shadow: $color3 0 5px ;
-     
-}
 
-button:hover{
-    box-shadow: $color3 0 3px;
-    top: 2px;
-}
-button:active{
-    box-shadow: none;
-    top: 3px;
-    color:$color3;
-}
-.teal{
-    color:$color1;
-}
-input:focus{
-    outline: none;
-     border: 2px solid $color5;
-}
-textarea:focus{
-    outline: none;
-    border: 2px solid $color5;
-}
