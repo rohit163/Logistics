@@ -125,7 +125,7 @@ body {
     background-color: rgba(0, 0, 0, 0.9);
     color: #ffffff; }
     .main-header.scrolled .active {
-      color: #008080; }
+      color: #f8b24f; }
     .main-header.scrolled .menu-icon__line, .main-header.scrolled .menu-icon__line::before, .main-header.scrolled .menu-icon__line::after {
       background: #fff; }
 
@@ -168,7 +168,7 @@ body {
   background: rgba(255, 255, 255, 0.2); }
 
 .logo {
-  color: #008080; }
+  color: #f8b24f; }
 
 @media screen and (max-width: 767px) {
   .main-header .menu-icon {
@@ -225,7 +225,7 @@ body {
     margin-top: -100px; } }
 
 .contact {
-  background-color: rgba(234, 104, 68, 0.5); }
+  background-color: rgba(229, 229, 229, 0.9); }
 
 .main {
   display: flex;
@@ -235,7 +235,7 @@ body {
 .container_contact {
   width: 80%;
   /* background-color: rgb(228, 228, 228); */
-  background-color: #9bc3c7; }
+  background-color: #303960d5; }
 
 .left {
   display: flex;
@@ -278,27 +278,34 @@ body {
 button {
   outline: none;
   border: none;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+  font-size: 23px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
   padding: 10px;
   margin: 30px auto;
   display: block;
   position: relative;
-  border-radius: 20px;
-  background-color: rgba(234, 104, 68, 0.5);
-  color: black; }
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  box-shadow: #f8b24f 0 5px; }
 
 button:hover {
-  color: #008080; }
+  box-shadow: #f8b24f 0 3px;
+  top: 2px; }
+
+button:active {
+  box-shadow: none;
+  top: 3px;
+  color: #f8b24f; }
 
 .teal {
-  color: #008080; }
+  color: #303960; }
 
 input:focus {
   outline: none;
-  border: 2px solid #008080; }
+  border: 2px solid rgba(248, 178, 79, 0.8); }
 
 textarea:focus {
   outline: none;
-  border: 2px solid #008080; }
+  border: 2px solid rgba(248, 178, 79, 0.8); }
